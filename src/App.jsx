@@ -79,17 +79,17 @@ const App = () => {
 
   return (
     <>
-    <div className="app">
-      <h1 className='text-5xl text-center '>Movie Search</h1>
-
+    <div className="flex-col ">
+      <h1 className='text-5xl text-center font-bold'>Movie Search</h1>
+      <br></br>
       <SearchBar
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
         handleSearch={handleSearch}
       />
 
-      <button
-        className="toggle-btn"
+      <button 
+        className="cursor-pointer "
         onClick={() => setShowFavorites(!showFavorites)}
       >
         {showFavorites ? 'Show Search Results' : 'Show Favorites'}
@@ -105,6 +105,7 @@ const App = () => {
         />
       ) : (
         <MovieList
+        
           movies={movies}
           favorites={favorites}
           toggleFavorite={toggleFavorite}

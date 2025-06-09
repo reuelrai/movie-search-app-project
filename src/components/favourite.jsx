@@ -3,9 +3,9 @@ import MovieCard from './card';
 
 const FavoritesList = ({ favorites, toggleFavorite }) => {
     return (
-        <div className="favorites-list">
+        <div className="">
             <h2>Your Favorites ({favorites.length})</h2>
-            <div className="movies-container">
+            <div className="">
                 {favorites.length > 0 ? (
                     favorites.map(movie => (
                         <MovieCard
