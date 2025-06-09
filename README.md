@@ -6,7 +6,7 @@ A responsive and modern movie search application built using **React**, **Tailwi
 
 ## 📸 Demo
 
-> Coming soon... (You can replace this with your deployed site link if available)
+> https://vercel.com/reuel-rais-projects/movie-search-app-project
 
 ---
 
