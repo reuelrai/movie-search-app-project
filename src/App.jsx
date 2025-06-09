@@ -33,7 +33,7 @@ const App = () => {
     setError(null);
 
     try {
-      const apiKey = import.meta.env.VITE_OMDB_API_KEY;
+      const apiKey = 63f18898;
       if (!apiKey) {
         throw new Error('API key not configured');
       }
