@@ -21,10 +21,10 @@ A responsive and modern movie search application built using **React**, **Tailwi
 
 ## 🛠️ Tech Stack
 
-- **React** – UI Library
-- **Tailwind CSS** – Utility-first CSS framework
-- **Vite** – Next-gen frontend tooling
-- **OMDb API** – Movie data provider
+- **React** – UI Library  
+- **Tailwind CSS** – Utility-first CSS framework  
+- **Vite** – Next-gen frontend tooling  
+- **OMDb API** – Movie data provider  
 
 ---
 
@@ -39,11 +39,66 @@ Follow the instructions below to set up the project locally.
 
 ### 📥 Clone the Repository
 
-```bash
-git clone https://github.com/reuelrai/movie-search-app-project.git
+<pre><code>git clone https://github.com/reuelrai/movie-search-app-project.git
 cd movie-search-app-project
+</code></pre>
 
-📦 Install Dependencies
-```bash
-npm install
+### 📦 Install Dependencies
 
+Using npm:
+
+<pre><code>npm install</code></pre>
+
+Or using Yarn:
+
+<pre><code>yarn install</code></pre>
+
+---
+
+## 🔑 Set Up Environment Variables
+
+Create a `.env` file in the root directory and add your OMDb API key:
+
+<pre><code>VITE_OMDB_API_KEY=your_api_key_here</code></pre>
+
+You can get a free OMDb API key at:  
+👉 [http://www.omdbapi.com/apikey.aspx](http://www.omdbapi.com/apikey.aspx)
+
+---
+
+## 🧪 Run the App Locally
+
+Start the development server:
+
+<pre><code>npm run dev</code></pre>
+
+Or:
+
+<pre><code>yarn dev</code></pre>
+
+Open your browser and go to:  
+👉 [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🧱 Build for Production
+
+<pre><code>npm run build</code></pre>
+
+To preview the build:
+
+<pre><code>npm run preview</code></pre>
+
+---
+
+## 📁 Project Structure
+movie-search-app-project/
+├── public/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── styles/
+│ └── App.jsx
+├── .env
+├── package.json
+└── vite.config.js
